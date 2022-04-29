@@ -1,0 +1,225 @@
+[33mcommit aa524f4ef52efae7fe90dee4ddad4d389aaff9c8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Lucilania <lucilaniasilva@yahoo.com.br>
+Date:   Fri Apr 29 17:57:07 2022 -0300
+
+    adição do desafio
+
+[1mdiff --git a/desafio.js b/desafio.js[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+
+[33mcommit 9d1e9582d2492d701db8d5f8bc366c963b4b1ac2[m
+Author: HannahFreitas <hannahcassia@gmail.com>
+Date:   Fri Apr 22 20:41:27 2022 -0300
+
+    Modificando readme
+
+[1mdiff --git a/para-o-lar/README.md b/para-o-lar/README.md[m
+[1mindex 147657c..0a2d47c 100644[m
+[1m--- a/para-o-lar/README.md[m
+[1m+++ b/para-o-lar/README.md[m
+[36m@@ -1,3 +1,5 @@[m
+[32m+[m[32m## Exercício lindo para vocês ❤️[m
+[32m+[m
+ Segundo o Só Biologia a “Síntese de RNA (mensageiro, por exemplo) se inicia com a separação das duas fitas de DNA. Apenas uma das fitas do DNA serve de molde para a produção da molécula de RNAm. A outra fita não é transcrita. Essa é uma das diferenças entre a duplicação do DNA e a produção do RNA.”.[m
+ [m
+ Essa síntese estava sendo analisada em um centro de genética, através de equipamento que geraram a cadeia de DNA e RNA de modo textual.[m
+[36m@@ -19,6 +21,7 @@[m [mRNA - UACGGCUUUAAACGC[m
+ Ou seja, o processo consiste basicamente na conversão:[m
+ [m
+ | DNA | RNA |[m
+[32m+[m[32m| --- | --- |[m
+ | G   | C   |[m
+ | C   | G   |[m
+ | T   | A   |[m
+
+[33mcommit 351a9b8821c473948678d49325403945b038b7af[m
+Author: sti <sti@matera.com>
+Date:   Fri Apr 22 20:34:21 2022 -0300
+
+    adicionando a aula
+
+[1mdiff --git a/README.md b/README.md[m
+[1mindex fbb9a90..07d3e4e 100644[m
+[1m--- a/README.md[m
+[1m+++ b/README.md[m
+[36m@@ -1,2 +1,528 @@[m
+ # ON15-TET-S5-PG-I[m
+ Turma Online Todas em Tech - Back-end | Semana 5: Projeto Guiado 1 - Desafio ES6[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### Que tal um resumindo geral, para ficar aquela colinha para utilizar nos projetinhos? Feito pela Beatriz Ramerindo!![m
+[32m+[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m# `Laços`[m
+[32m+[m
+[32m+[m[32mLaços são estruturas de repetição que são executadas até que uma condição seja verdadeira. Como usá-los?[m
+[32m+[m
+[32m+[m[32m - Para interar um Array, para repetir um bloco ( trecho ) de código, para automatizar um bloco de código, etc.[m
+[32m+[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m
+[32m+[m[32m| Sintáse     | Descrição  |[m
+[32m+[m[32m| ----------- | -----------|[m
+[32m+[m[32m|`For`        | repete um bloco de código enquanto uma condição for verdadeira. |[m
+[32m+[m[32m|`While`      | Caso a condição seja verdadeira, ele executa o bloco de código.|[m
+[32m+[m[32m|`Do While`   | Execulta uma vez, independente se a condição seja verdadeira ou não, enquanto |a condição for verdadeira, ele continua o loop.|[m
+[32m+[m[32m|`For of`     | (Intera) Percorre um Array.|[m
+[32m+[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m
+[32m+[m[32m## Exemplos:[m[41m  [m
+[32m+[m
+[32m+[m[32m### `For`[m[41m [m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mfor(let i = 0; i < 10; i++){[m[41m [m
+[32m+[m[32m    console.log(`estamos no numero ${i}`)[m
+[32m+[m[32m}[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### `While`[m[41m [m
+[32m+[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mlet total = 0;[m[41m [m
+[32m+[m[32mlet contador = 0;[m
+[32m+[m[32mwhile(contador < 10){[m
+[32m+[m[32m    total += contador * 100;[m
+[32m+[m[32m    contador++[m
+[32m+[m[32m    console.log(`contando...${contador}`)[m
+[32m+[m[32m}[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### `Do While`[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mlet total = 0;[m[41m [m
+[32m+[m[32mlet contador = 0;[m
+[32m+[m[32mdo{[m
+[32m+[m[32m    total += contador * 100;[m
+[32m+[m[32m    contador++[m
+[32m+[m[32m    console.log(`contando...${contador}`)[m
+[32m+[m[32m} while(contador < 10)[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m
+[32m+[m[32m### `For of`[m
+[32m+[m[32m```[m
+[32m+[m[32m    let aldeias = ["Aldeia da Folha", "Aldeia da Areia", "Aldeia das Nuvens", "Aldeia do Som"][m
+[32m+[m[32m    for(let aldeia of aldeias){[m[41m [m
+[32m+[m[32m        console.log(`Mostre para min a aldeia: ${aldeia}`)[m
+[32m+[m[32m    }[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m
+[32m+[m[32m## `Objetos`[m
+[32m+[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m
+[32m+[m[32mObjetos são `coleção de dados`, que sao decrarados por meio `chaves` e `valores`. Objetos são usados para `abstrair` o mundo real, como por exemplo, um `cartão`, um `gatinho`, uma `aluna`, etc.[m
+[32m+[m
+[32m+[m
+[32m+[m[32m- `Atributos` - são variáves( *ou seja, dentro do objeto a `variável` se torna um `atributo`*) que um objeto possui.[m
+[32m+[m
+[32m+[m[32m- `Métodos` - são as funções ( *ou seja, dentro do objeto a `função` se torna um `método`*) que um objeto possui.  O método sempre vai `executar uma ação`, como se fosse um `verbo` na lingua portuguesa.[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32m// exemplo 1 - mais simples[m
+[32m+[m[32mconst pessoa = {[m[41m [m
+[32m+[m[32m    nome: "Beatriz",[m
+[32m+[m[32m    sobrenome: "Ramerindo",[m
+[32m+[m[32m    falarNome(){[m[41m [m
+[32m+[m[32m        console.log(`Meu nome é ${this.nome} ${this.sobrenome}`)[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+[32m+[m[32m// exempo 2 - mais próximo do que seria na vida real[m
+[32m+[m[32mconst Cartao = {[m
+[32m+[m[32m    numero: "1234-4567-8910-0000",[m
+[32m+[m[32m    bandeira: "Visa",[m
+[32m+[m[32m    vencimento: "12/20",[m
+[32m+[m[32m    cvv: "123",[m
+[32m+[m[32m    titular: "Beatriz Ramerindo",[m
+[32m+[m[32m    pagarDebito(){[m[41m [m
+[32m+[m[32m        console.log(`Pagando com o cartão ${this.numero}, na funcao debito`)[m
+[32m+[m[32m    },[m
+[32m+[m[32m    pagarCredito() {[m[41m [m
+[32m+[m[32m        console.log(`Pagando com o cartão ${this.numero}, na funcao credito`)[m
+[32m+[m[32m    },[m
+[32m+[m[32m    getDados() {[m
+[32m+[m[32m        return {[m
+[32m+[m[32m            numero: this.numero,[m
+[32m+[m[32m            bandeira: this.bandeira,[m
+[32m+[m[32m            vencimento: this.vencimento,[m
+[32m+[m[32m            cvv: this.cvv,[m
+[32m+[m[32m            titular: this.titular[m
+[32m+[m[32m        }[m
+[32m+[m[32m    }[m
+[32m+[m[32m}[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m[32m<br>[m
+[32m+[m
+[32m+[m[32m# `Arrays`[m
+[32m+[m
+[32m+[m
+[32m+[m[32mO array é uma `estrutura de dados` que contém um `índice` **numérico** e um `elemento` que é  o valor.[m
+[32m+[m
+[32m+[m[32mEsse elemento pode ser: uma `String` - texto, um Numero - *float, int, etc*, um `Objeto`, ou até mesmo outro `array`.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m*Mas porque usar o Array?*[m
+[32m+[m[32mQuando precisamos montar uma `coleção de dados`, como por exemplo, uma lista de produtos, nomes,  filmes, etc.[m
+[32m+[m
+[32m+[m
+[32m+[m[41m [m
+[32m+[m
+[32m+[m
+[32m+[m[32mComo exemplo, vou utilizar uma lista de alunas.[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32mlet alunas = [[m
+[32m+[m[32m    "Amanda",[m
+[32m+[m[32m    "Priscila",[m
+[32m+[m[32m    "Vanessa"[m
+[32m+[m[32m][m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m[32mmas ai precisamos adicionar mais uma alunas.[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32malunas[4] = "Maria"[m
+[32m+[m[32m```[m
+[32m+[m
+[32m+[m
+[32m+[m[32mAcho que podemos melhorar um pouquinho,[m
+[32m+[m
+[32m+[m[32m```[m
+[32m+[m[32malunas[ alunas.length ] = "Maria"[m
+[32m+[m[32m```[m
+[32m+[m
